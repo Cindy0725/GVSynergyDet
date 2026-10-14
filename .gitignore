@@ -1,0 +1,35 @@
+# Python and compiled extension outputs
+__pycache__/
+*.py[cod]
+*.so
+*.o
+*.a
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+
+# Experiment artifacts and datasets
+/data/
+/checkpoints/
+/work_dirs/
+/outputs/
+/wandb/
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.npy
+*.npz
+*.log
+events.out.tfevents.*
+
+# Local environment and editor state
+.env
+.env.*
+.venv/
+.idea/
+.vscode/
+.DS_Store
+*.swp
