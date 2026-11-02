@@ -171,7 +171,7 @@ CUDA_VISIBLE_DEVICES=0 python tools/test.py \
   checkpoints/gvsynergydet_arkit.pth
 ```
 
-The checkpoint filenames above are examples, not bundled downloads. Use the matching dataset checkpoint. Changing the number of GPUs changes the effective batch size and may require learning-rate adjustments.
+The checkpoint filenames above are examples, not bundled downloads. Use the matching dataset checkpoint. Changing the number of GPUs changes the effective batch size and may require learning-rate adjustments. The checkpoints are available at: https://drive.google.com/drive/folders/11a6Dz5smMEOgdXW103qVe-j9OgIeVFP4?usp=sharing
 
 
 
